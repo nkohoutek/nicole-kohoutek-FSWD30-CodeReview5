@@ -30,6 +30,11 @@ margin-right: auto;
 }
 
 #main {
+	display: flex;
+	display: -webkit-flex;
+    display: -ms-flexbox;
+	
+
 	margin: 0 auto;
 	width: 100%;
 background-color: #FFFFFF;
@@ -38,6 +43,7 @@ border-right: 2px solid #DDC0D5;
 }
 
 #welcome {
+	clear: both;
 	width: 100%;
   background-image: url("img/computer.jpg"), -webkit-linear-gradient(left, #881C7E, #922088);
   background-image: url("img/computer.jpg"), -o-linear-gradient(left, #881C7E, #922088);
@@ -54,12 +60,17 @@ border-right: 2px solid #DDC0D5;
 	justify-content: center;
 	margin: 0 auto;
 	
+}
 
+#mates img {
+	max-width: 100%;
+	height: auto;
 }
 
 .mate1, .mate2, .mate3, .mate4 {
 	margin: 0 auto;
-	max-width: 45%;
+	min-width: 40%;
+	max-width: 50%;
 	padding: 0.5em;
 	background-color: #DDC0D5;
 	font-size: em;
@@ -75,7 +86,7 @@ border-right: 2px solid #DDC0D5;
 .like_mate {
 	background-color: #91D9CD;
 	border:  1px solid #83807B;
-	border-radius: ;
+	border-radius: 0.5em;
 	padding: 0.5em;
 }
 
