@@ -1,0 +1,99 @@
+body {
+margin: 0 auto;
+background-color: #110E0D;
+font-family: "Chivo", sans-serif;
+font-size: 0.8em;
+}
+
+#container {
+margin: 0 auto;
+width: 70%;
+}
+
+#header {
+margin: 0 auto;
+width: 100%;
+background: -webkit-linear-gradient(left, #922088, #881C7E);
+background: -o-linear-gradient(left, #922088, #881C7E);
+background: linear-gradient(to right, #922088, #881C7E);
+
+}
+
+#header img {
+max-width: 100%;
+height: auto;
+padding-top: 3em;
+padding-bottom: 5em;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#main {
+	margin: 0 auto;
+	width: 100%;
+background-color: #FFFFFF;
+border-left: 2px solid #DDC0D5;
+border-right: 2px solid #DDC0D5;
+}
+
+#welcome {
+	width: 100%;
+  background-image: url("img/computer.jpg"), -webkit-linear-gradient(left, #881C7E, #922088);
+  background-image: url("img/computer.jpg"), -o-linear-gradient(left, #881C7E, #922088);
+  background-image: url("img/computer.jpg"), linear-gradient(to right, #881C7E, #922088); 
+}	
+
+
+#mates {
+	width: 100%;
+	display: flex;
+	display: -webkit-flex;
+    display: -ms-flexbox;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	
+
+}
+
+.mate1, .mate2, .mate3, .mate4 {
+	margin: 0 auto;
+	max-width: 45%;
+	padding: 0.5em;
+	background-color: #DDC0D5;
+	font-size: em;
+	color: #000000;
+	border: 1px solid red;
+
+}
+
+.like {
+
+}
+
+.like_mate {
+	background-color: #91D9CD;
+	border:  1px solid #83807B;
+	border-radius: ;
+	padding: 0.5em;
+}
+
+#footer {
+	width: 100%;
+	background-color: #FFFFFF;
+	border-left: 2px solid #DDC0D5;
+	border-right: 2px solid #DDC0D5;
+	border-bottom: 2px solid #DDC0D5;
+}
+
+#footer img {
+	max-width: 100%;
+	height: auto;
+	padding-top: 3em;
+	padding-bottom: 5em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
